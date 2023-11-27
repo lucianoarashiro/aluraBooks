@@ -32,3 +32,31 @@
     line-height: normal;
     font-size: 14px;
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .topicos {
+        padding: 1em 1em 2em 1em;
+    }
+
+    .topicos__lista {
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos {
+        padding: 3em 20vw;
+    }
+
+}
